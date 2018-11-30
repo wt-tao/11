@@ -1,0 +1,19 @@
+<!--pages/my_bill/my_bill.wxml-->
+<view class='top flex'>
+    <view class='top_l'>{{array[index]}}</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+        <image src='../../img/tc-294-kb-2.png' style='width:60rpx;margin-top:20rpx;margin-left:40rpx;' mode='widthFix'/>
+    </view>
+  </picker>
+</view>
+<view class='list' wx:for='{{3}}' >
+    <view class='list_tp flex'>
+        <view class='tp_name'>袍哥人家老火锅</view>
+        <view class='tp_num'>-5.00</view>
+    </view>
+    <view class='list_b flex'>
+        <view class='b_t'>2018.11.15</view>
+        <view class='b_t ex'></view>
+    </view>
+</view>

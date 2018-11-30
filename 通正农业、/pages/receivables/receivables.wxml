@@ -1,0 +1,16 @@
+<!--pages/receivables/receivables.wxml-->
+<view class='bgt' style='height:{{height}}'>
+  <view style='height:50rpx;'></view>
+   <view class='div'>
+      <view class='title'>微信扫一扫，向我付钱</view>
+      <view class='erwm_img'></view>
+      <view class='bz'>保存图片</view>
+      <view class='share_button flex'>
+          <view class='button_ flex' bindtap='receivables_records'>
+              <image src='../../img/yjjx-14-kb-2.png' style='width:50rpx;margin-top:15rpx;margin-left:30rpx;' mode='widthFix'/>
+              <view class='share_text'>收款记录</view>
+          </view>
+         <image src='../../img/tc-235.png' style='width:25rpx;margin-top:50rpx;' mode='widthFix'/>
+      </view>
+   </view>
+</view>

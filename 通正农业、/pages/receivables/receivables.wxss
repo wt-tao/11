@@ -1,0 +1,10 @@
+/* pages/receivables/receivables.wxss */
+.bgt{width: 100%;background-color: #FF9935}
+
+.div{width: 90%;margin-left: 5%;background-color: white;border-radius: 10rpx;margin-top:50rpx;height:800rpx;}
+.title{width: 100%;padding-top: 20rpx;line-height: 100rpx;font-size: 28rpx;color: #555;text-align: center;}
+.erwm_img{width: 60%;margin-left: 20%;height:400rpx;border: 1rpx solid black;margin-top: 20rpx;}
+.bz{width: 90%;margin-left: 5%;color: #1C96E4;line-height: 100rpx;font-size: 28rpx;text-align: center;border-bottom: 1rpx solid #F1F1F1}
+.share_button{width: 100%;line-height: 80rpx;}
+.button_{width: 87%;margin-left: 5%;border-radius: 40rpx;height: 80rpx;margin-top:30rpx;}
+.share_text{font-size: 30rpx;color: #444444;margin-left:30rpx;}

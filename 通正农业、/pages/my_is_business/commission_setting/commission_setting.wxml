@@ -1,0 +1,20 @@
+<!--pages/my_is_business/commission_setting/commission_setting.wxml-->
+<view class='div'>
+    <view class='top flex'>
+        <view class='top_ {{id==1?"on":""}}' id='1' bindtap='sec'>消费返利</view>
+        <view class='top_ {{id==2?"on":""}}' id='2' bindtap='sec'>佣金返利</view>
+    </view>
+    <view class='sec flex'>
+        <image src='../../../img/xz-2-kb (1).png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+        <view style='margin-left:10rpx;'>开启</view>
+        <image src='../../../img/xz-2-kb (2).png' style='width:40rpx;margin-top:20rpx;margin-left:60rpx;' mode='widthFix'/>
+        <view style='margin-left:10rpx;'>关闭</view>
+    </view>
+
+    <input placeholder='设置您的消费返利比例：如1%' class='input' placeholder-class='place'/>
+
+    <view class='text'>提示：返利设置默认勾选开启状态，返利比例最低为1%，您可根据店铺经营情况进行设置。</view>
+</view>
+
+
+<view class='sure'>确定</view>

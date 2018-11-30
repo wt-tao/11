@@ -1,0 +1,8 @@
+/* pages/customer_phone/customer_phone.wxss */
+page{background-color: #f1f1f1}
+.div{background-color: white;padding: 50rpx 5%;width: 90%;}
+
+.kuang{width: 100%;background-color: #EFEFEF;color: #FF6A00;font-size: 42rpx;font-weight: bold;height: 100rpx;line-height: 100rpx;border-radius: 50rpx;}
+
+.text{width: 100%;font-size: 26rpx;color: #555;line-height: 100rpx;text-align: center}
+.text1{color: #555;font-weight: 100;font-size: 32rpx;}

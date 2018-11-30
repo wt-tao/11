@@ -1,0 +1,4 @@
+/**app.wxss**/
+.flex{display: flex;flex-direction: row}
+.nowrap{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.back{background-color: #F1F1F1;width: 100%;height: 20rpx;}

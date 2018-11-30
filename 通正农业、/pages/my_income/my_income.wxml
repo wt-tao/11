@@ -1,0 +1,27 @@
+<!--pages/my_income/my_income.wxml-->
+<image src='../../img/tc-232-kb.png' style='width:100%' mode='widthFix'/>
+<view class='top flex'>
+    <image src='../../img/money_.png' style='width:60rpx;margin-top:30rpx;' mode='widthFix'/>
+    <view class='top_'>
+        <view class='top_name'>我的收益：<text style='font-size:45rpx;'>￥518.00</text></view>
+        <view class='top_text'>消费返利:￥300.00 佣金返利：￥218.00</view>
+    </view>
+    <view class='top_tx' bindtap='withdrawal'>我要提现</view>
+</view>
+
+<view class='list_t flex'>
+    <view class='list_c {{id==1?"on":""}}' id='1' bindtap='sec'>消费返利</view>
+    <view class='list_c {{id==2?"on":""}}' id='2' bindtap='sec'>佣金返利</view>
+</view>
+
+<view class='list' wx:for='{{3}}' bindtap='income_detail' id=''>
+    <view class='list_tp flex'>
+        <view class='tp_name'>袍哥人家老火锅</view>
+        <view class='tp_num'>+5.00</view>
+    </view>
+    <view class='list_b flex'>
+        <view class='b_t'>消费：500.00 返利：1%</view>
+        <view class='b_t ex'>消费：500.00 返利：1%</view>
+    </view>
+</view>
+<view style='height:20rpx;'></view>

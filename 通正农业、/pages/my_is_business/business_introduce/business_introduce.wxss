@@ -1,0 +1,7 @@
+/* pages/my_is_business/business_introduce/business_introduce.wxss */
+.img{width: 100%;height:500rpx;background-color: #B6B6B6;color: white;}
+.img_text{width: 100%;text-align: center;font-size: 30rpx;margin-top: 20rpx;}
+.place{font-size: 26rpx;color: #999;}
+.textarea{width: 86%;margin-left: 5%;padding: 20rpx 2%;border: 1rpx solid #ECECEC;border-radius: 10rpx;font-size: 28rpx;height:400rpx;margin-top:50rpx; }
+
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:60rpx;font-size: 30rpx;}

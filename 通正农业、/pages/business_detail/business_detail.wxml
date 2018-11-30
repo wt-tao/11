@@ -1,0 +1,158 @@
+<!--pages/business_detail/business_detail.wxml-->
+<view class='div' bindtap='business_introduce'>
+    <view class='div_k flex'>
+        <view class='div_img'></view>
+        <view class='div_info'>
+            <view class='info_name'>蜀宗袍哥人家老火锅（春熙路店）</view>
+            <view class='info_bz'>发士大夫阿道夫阿凡达噶发的个阿凡达噶发给爱人个人爱啊实打实大商股份国村大V</view>
+        </view>
+        <image src='../../img/tc-235.png' style='width:20rpx;margin-top:80rpx;margin-left:20rpx' mode='widthFix'/>
+    </view>
+    <view class='div_ks flex'>
+        <view class='ks_left flex'>
+            <image src='../../img/f.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view style='margin-left:10rpx;'>消费返利 1% 佣金返利 1%</view>
+        </view>
+        <view class='ks_right'>人均：66/人</view>
+
+    </view>
+</view>
+
+<view class='div flex'>
+    <view class='div_list flex' bindtap='comment' id='1'>
+        <image src='../../img/tc-274 (1).png' style='width:40rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>想吃</view>
+    </view>
+    <view class='div_list flex' bindtap='comment' id='2'>
+        <image src='../../img/tc-274 (4).png' style='width:40rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>吃过</view>
+    </view>
+    <view class='div_list flex'>
+        <image src='../../img/tc-274 (2).png' style='width:40rpx;margin-top:20rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>收藏</view>
+    </view>
+   
+      <button style='width:30%;border:none' open-type='share' class='flex' plain>
+       <view class='butt flex' >
+        <image src='../../img/tc-274 (3).png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>分享</view>
+       </view>
+      </button>
+   
+</view> 
+
+<view class='div' bindtap='comment_detail'>
+    <view class='div taber'>
+        <view class='taber_t flex'>
+            <view class='taber_l'>11评分</view>
+            <view class='taber_r'>118人评分</view>
+        </view>
+        <view class='taber-c flex'>
+            <view class='c_left'>
+                <view class='c_l_number'>4.5<text style='font-size:50rpx;'>分</text></view>
+                <view class='c_l_x flex'>
+                    <image src='../../img/pj_-xx_kb_3.png' style='width:35rpx;margin-left:10rpx;' wx:for='{{5}}' mode='widthFix'/>
+                </view>
+            </view>
+            <view class='c-right'>
+                <view class='c_r_list flex' style='margin-top:30rpx;'>
+                    <view class='c_r_list_l'>
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>        
+                    </view>
+                    <progress border-radius='20rpx' percent='80' stroke-width='6' activeColor='#FF8A00' backgroundColor='#BFBFBF' style='width:300rpx;'></progress>
+                </view>
+                <view class='c_r_list flex' style='margin-top:-30rpx;'>
+                    <view class='c_r_list_l'>
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:30rpx;' mode='widthFix'/>   
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:5rpx;' mode='widthFix'wx:for='{{3}}'/>        
+                    </view>
+                    <progress border-radius='20rpx' percent='80' stroke-width='6' activeColor='#FF8A00' backgroundColor='#BFBFBF' style='width:300rpx;'></progress>
+                </view>
+                 <view class='c_r_list flex' style='margin-top:-30rpx;'>
+                    <view class='c_r_list_l'>
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:55rpx;' mode='widthFix'/>   
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:5rpx;' mode='widthFix'wx:for='{{2}}'/>        
+                    </view>
+                    <progress border-radius='20rpx' percent='80' stroke-width='6' activeColor='#FF8A00' backgroundColor='#BFBFBF' style='width:300rpx;'></progress>
+                </view>
+                <view class='c_r_list flex' style='margin-top:-30rpx;'>
+                    <view class='c_r_list_l'>
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:80rpx;' mode='widthFix'/>   
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:5rpx;' mode='widthFix'/>        
+                    </view>
+                    <progress border-radius='20rpx' percent='80' stroke-width='6' activeColor='#FF8A00' backgroundColor='#BFBFBF' style='width:300rpx;'></progress>
+                </view>
+                <view class='c_r_list flex' style='margin-top:-30rpx;'>
+                    <view class='c_r_list_l'>
+                        <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:105rpx;' mode='widthFix'/>   
+                        <!-- <image src='../../img/pjxx-kb-4.png' style='width:22rpx;margin-left:5rpx;' mode='widthFix'/>         -->
+                    </view>
+                    <progress border-radius='20rpx' percent='80' stroke-width='6' activeColor='#FF8A00' backgroundColor='#BFBFBF' style='width:300rpx;'></progress>
+                </view>
+            </view>
+        </view>
+        <view class='tab_b'>198人吃过 358人想吃</view>
+        
+    </view>
+</view>
+
+<view class='bu_div'>
+    <view class='buttom'>买单</view>
+</view>
+<view class='div flex'>
+    <view class='div_tit'>产品展示</view>
+    <view class='div_t_r'>全部 24 ></view>
+</view>
+
+
+<view class='list_sp flex'>
+    <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+    <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+     <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+</view>
+
+<view class='back'></view>
+
+<view class='div flex' style='height:100rpx;line-height:100rpx;'>
+    <view class='div_tit'>评论<text style='font-size:28rpx;color:#999;font-weight:100'>（188人评论）</text></view>
+</view>
+
+<!-- 评论列表 -->
+
+<view class='comment flex' wx:for='{{2}}'>
+    <view class='comment_img'></view>
+    <view class='comment_info'>
+        <view class='c_info_tit flex'>
+            <view class='c_info_name'>爱撒娇的小野猫</view>
+            <view class='c_info_time'>2018-11-12</view>
+        </view>
+        <view class='c_p_xx flex'>
+            <image src='../../img/pj_-xx_kb_3.png' style='width:25rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>
+        </view>
+        <view class='c_p_text'>的撒发大水放的梵蒂冈发的工时费are发的给如果三方公司若干个水电费爱人噶尔个人是非得失个水电费个三个人发顺</view>
+        <view class='c_p_bq flex'>
+            <image src='../../img/xz-1.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+            <view style='margin-left:10rpx;'>菜品不错，干净卫生，热情服务，价格卫生</view>
+        </view>
+        <view class='c_tp_img flex'>
+            <view class='c_tp_img_list' wx:for='{{3}}'></view>
+        </view>
+    </view>
+</view>
+<view class='back'></view>
+
+
+<!-- 图标 -->
+<image src='../../img/tc-292.png' class='img_flexd' mode='widthFix'/>

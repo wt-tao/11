@@ -1,0 +1,12 @@
+/* pages/withdrawal/withdrawal.wxss */
+page{background-color: #f1f1f1}
+.div{background-color: white;padding: 50rpx 5% 30rpx 5%;width: 90%}
+.div_{width: 100%;}
+.div_t{width: 100%;line-height: 60rpx;}
+.div_t_l{font-size: 30rpx;color: #555;width: 70%}
+.gz{width: 160rpx;text-align: center;line-height: 40rpx;color: #FFC48F;border: 1rpx solid #FFC48F;border-radius: 20rpx;font-size: 24rpx;height: 40rpx;margin-top:20rpx;}
+.place{font-size: 30rpx;color: #999;}
+.input{width: 93%;border: 1rpx solid #EEEEEE;font-size: 30rpx;border-radius: 5rpx;margin-top:20rpx;height:80rpx;padding-left: 2%}
+.ts{font-size: 27rpx;color: #333;margin-top: 30rpx;}
+
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:100rpx;font-size: 30rpx;}

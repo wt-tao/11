@@ -1,0 +1,10 @@
+/* pages/my_is_business/business_photo/add_photo/add_photo.wxss */
+page{background-color: #f1f1f1}
+.div{width: 90%;padding: 30rpx 5%;background-color: white;height: 600rpx;}
+.tp{width: 60%;margin-left: 20%;background-color: #B6B6B6;height:300rpx;}
+.sc{width: 30%;text-align: center;line-height: 60rpx;border-radius: 30rpx;margin-left: 35%;border: 1rpx solid #E9E9E9;font-size: 28rpx;margin-top: 50rpx;}
+
+.place{font-size: 30rpx;color: #AFAFAF;}
+
+.input{width: 97%;padding-left: 3%;height:80rpx;font-size: 30rpx;margin-top:60rpx;border: 1rpx solid #E9E9E9;}
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:100rpx;font-size: 30rpx;}

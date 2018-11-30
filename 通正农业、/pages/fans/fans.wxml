@@ -1,0 +1,16 @@
+<!--pages/fans/fans.wxml-->
+<image src='../../img/tc-241.jpg' style='width:100%' mode='widthFix'/>
+<view class='top flex'>
+    <image src='../../img/tc-238-kb-3.png' style='width:80rpx;margin-left:20rpx;margin-top:60rpx;' mode='widthFix'/>
+    <view class='top_text'>我的粉丝：<text style='font-size:50rpx;'>800人</text></view>
+</view>
+<view class='back'></view>
+
+<view class='list flex' wx:for='{{3}}'>
+    <view class='list_img'></view>
+    <view class='list_r'>
+        <view class='r_name'>莫问利亚</view>
+        <view class='r_time'>2018-11-15</view>
+    </view>
+</view>
+<view class='back'></view>

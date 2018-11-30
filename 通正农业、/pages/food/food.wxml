@@ -1,0 +1,116 @@
+<!--pages/food/food.wxml-->
+<view class='search' >
+    <view style='width:100%;height:20rpx;'></view>
+    <view class='search_ flex'>
+        <image src='../../img/xz-3_60.png' style='width:40rpx;margin-top:10rpx;margin-left:30rpx;' mode='widthFix'/>
+        <input class='input' placeholder='搜索：商品名、商户名、商户位置' placeholder-class='polac'/>   
+    </view>
+</view>
+
+<view class='div'>
+    <view class='div_tit flex'>
+        <view class='div_t_l flex {{ids==1?"ons":""}}' bindtap='show' id='1'>
+            <view class='div_t_l_text'>美食分类</view>
+            <image src='{{ids==1?"../../img/xz-4.png":"../../img/xz-4-kb.png"}}' style='width:20rpx;margin-top:45rpx;margin-left:20rpx;' mode='widthFix'/>
+        </view>
+        <view class='div_t_l flex {{ids==2?"ons":""}}' bindtap='show' id='2'>
+            <view class='div_t_l_text' style='width:50%'>附件</view>
+            <image src='{{ids==2?"../../img/xz-4.png":"../../img/xz-4-kb.png"}}' style='width:20rpx;margin-top:45rpx;margin-left:20rpx;' mode='widthFix'/>
+        </view>
+    </view>
+</view>
+
+<view class='list flex' bindtap='business_detail' id=''>
+    <view class='list_img'></view>
+     <view class='list_info'>
+        <view class='info_name'>老妈特色牛肉串串香</view>
+        <view class='index-fl flex'>
+              <image src='../../img/f.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+              <view style='margin-left:5rpx;' class='nowarp'>消费返利 1% 佣金返利 1%</view>
+        </view>
+         <view class='index-fl flex' style='height:30rpx;'>
+              <image src='../../img/pjxx_kb.png' style='width:30rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>
+              <view class='infp_tex nowarp' style='margin-left:10rpx;'>5.0分</view>
+              
+              <view class='infp_texs nowarp flex' style='margin-left:20rpx;' >
+                <image src='../../img/pltb.png' style='width:25rpx;margin-left:10rpx;margin-top:2.5rpx;' mode='widthFix'/>
+                <view>198</view>
+              </view>
+          </view>
+          <view class='index-fl flex' style='font-size:28rpx;'>
+                  <view class='fl_text flex'>
+                        <image src='../../img/ty-37-kb.png' style='width:30rpx;margin-top:25rpx;' mode='widthFix'/>
+                        <view style='margin-left:10rpx;'>1.98km</view>
+                  </view>
+                  <view class='fl_text ts'>人均:56/人</view>
+            </view>
+     </view>
+</view>
+
+<view class='list flex'>
+    <view class='list_img'></view>
+     <view class='list_info'>
+        <view class='info_name'>老妈特色牛肉串串香</view>
+        <view class='index-fl flex'>
+              <image src='../../img/f.png' style='width:40rpx;margin-top:20rpx;' mode='widthFix'/>
+              <view style='margin-left:5rpx;' class='nowarp'>消费返利 1% 佣金返利 1%</view>
+        </view>
+         <view class='index-fl flex' style='height:30rpx;'>
+              <image src='../../img/pjxx_kb.png' style='width:30rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>
+              <view class='infp_tex nowarp' style='margin-left:10rpx;'>5.0分</view>
+              
+              <view class='infp_texs nowarp flex' style='margin-left:20rpx;' >
+                <image src='../../img/pltb.png' style='width:25rpx;margin-left:10rpx;margin-top:2.5rpx;' mode='widthFix'/>
+                <view>198</view>
+              </view>
+          </view>
+          <view class='index-fl flex' style='font-size:28rpx;'>
+                  <view class='fl_text flex'>
+                        <image src='../../img/ty-37-kb.png' style='width:30rpx;margin-top:25rpx;' mode='widthFix'/>
+                        <view style='margin-left:10rpx;'>1.98km</view>
+                  </view>
+                  <view class='fl_text ts'>人均:56/人</view>
+            </view>
+     </view>
+</view>
+
+<!-- 弹窗分类 -->
+
+<block wx:if='{{sort}}'>
+<view class="bg"  bindtap='bindSorttap'></view>
+<view class="show flex" >
+<view class='show_ flex'>
+    <view class='show-left' hidden='{{s1}}'>
+    <scroll-view scroll-y style='height:480rpx;'>
+        <view class='show_left_list {{item.id==id?"on":""}}' wx:for='{{list}}' id='{{item.id}}' bindtap='list'>{{item.text}}</view>
+    </scroll-view>
+    </view>
+    <view class='show-left' style='background-color: white;' hidden='{{s1}}'>
+    <scroll-view scroll-y style='height:480rpx;'>
+        <view class='show_left_list flex' style='width:90%'>
+            <view class='ls_cloum nowarp'>全部火锅</view>
+            <view class='ls_cloum_'>55</view>
+        </view>
+        <view class='show_left_list flex' style='width:90%' bindtap='sure'>
+            <view class='ls_cloum nowarp'>全部火锅</view>
+            <view class='ls_cloum_'>55</view>
+        </view>
+       
+    </scroll-view>
+    </view>
+    <!-- 附件 -->
+    <view class='show-left' style='background-color: white;width:100%' hidden='{{s2}}'>
+    <scroll-view scroll-y style='height:480rpx;'>
+        <view class='show_left_list flex' style='width:90%'>
+            <view class='ls_cloum nowarp' style='width:100%;text-align:center'>一千米</view>
+            <!-- <view class='ls_cloum_'>5</view> -->
+        </view>
+        <view class='show_left_list flex' style='width:90%' bindtap='sure'>
+            <view class='ls_cloum nowarp' style='width:100%;text-align:center'>二千米</view>
+        </view>
+       
+    </scroll-view>
+    </view>
+</view>
+</view>
+</block>

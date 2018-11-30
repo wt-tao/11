@@ -1,0 +1,9 @@
+<!--pages/my_is_business/business_introduce/business_introduce.wxml-->
+<view class='img'>
+    <image src='../../../img/tc-284.png' style='width:12%;margin-left:44%;margin-top:150rpx;' mode='widthFix'/>
+    <view class='img_text'>点击上传商家门头照，将用于封面展示</view>
+</view>
+
+<textarea class='textarea' placeholder='请介绍您的商铺，如：经营范围、特色特点等' placeholder-class='place' maxlength='3000'></textarea>
+
+<view class='sure'>确定</view>

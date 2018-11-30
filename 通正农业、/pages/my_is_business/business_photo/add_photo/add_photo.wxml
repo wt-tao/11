@@ -1,0 +1,12 @@
+<!--pages/my_is_business/business_photo/add_photo/add_photo.wxml-->
+<view class='div'>
+    <view class='tp'>
+        <image src='../../../../img/ty-39_36.png' style='width:30%;margin-left:35%;margin-top:100rpx;' mode='widthFix'/>
+    </view>
+    <view class='sc'>上传</view>
+
+    <input placeholder='请输入照片名称' class='input' placeholder-class='place'/>
+</view>
+
+
+<view class='sure'>确定</view>

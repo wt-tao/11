@@ -1,0 +1,11 @@
+<!--pages/my_is_business/business_hours/business_hours.wxml-->
+<view class='div' >
+    <view class='name'>填写您的营业时间</view>
+    <view class='in flex'>
+        <!-- <image src='../../../img/ty-37-kb.png' style='width:30rpx;margin-left:25rpx;margin-top:20rpx;' mode='widthFix'/> -->
+        <input class='input' placeholder='请输入您的营业时间范围，如10：00~23：00' placeholder-class='place'/>
+    </view>
+    <view style='height:40rpx;'></view>
+</view>
+
+<view class='sure'>确定</view>

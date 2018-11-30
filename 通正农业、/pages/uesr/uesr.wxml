@@ -1,0 +1,78 @@
+<!--pages/uesr/uesr.wxml-->
+<view class='user flex'>
+    <view class='user_img'></view>
+    <view class='user_info'>
+        <view class='info_name'>漫时光LILY</view>
+        <view class='my_jifen'>我的积分:1200</view>
+    </view>
+    <view class='end'>退出</view>
+</view>
+
+<view class='white flex'>
+    <view class='white_list' bindtap='my_income'>
+        <view class='white_number'>518.00</view>
+        <view class='white_but flex'>
+            <image src='../../img/tc-237 (1).png' style='width:30rpx;margin-top:15rpx;margin-left:100rpx;' mode='widthFix'/>
+            <view style='margin-left:20rpx;'>我的收益</view>
+        </view>
+    </view>
+    <view class='white_list' bindtap='fans'>
+        <view class='white_number'>800</view>
+        <view class='white_but flex'>
+            <image src='../../img/tc-237 (2).png' style='width:30rpx;margin-top:15rpx;margin-left:100rpx;' mode='widthFix'/>
+            <view style='margin-left:20rpx;'>我的粉丝</view>
+        </view>
+    </view>
+</view>
+
+<view class='list flex' style='margin-top:20rpx;'bindtap='my_bill'>
+    <view class='list_left flex' >
+        <image src='../../img/yjjx-5-kb (1).png' style='width:50rpx;margin-top:25rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>我的账单</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='list flex' bindtap='my_collection' >
+    <view class='list_left flex' >
+        <image src='../../img/yjjx-5-kb (4).png' style='width:50rpx;margin-top:25rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>我的收藏</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='list flex' bindtap='my_comment'>
+    <view class='list_left flex'>
+        <image src='../../img/yjjx-5-kb (5).png' style='width:50rpx;margin-top:30rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>我的评价</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='list flex'  bindtap='my_share'>
+    <view class='list_left flex'>
+        <image src='../../img/yjjx-5-kb (6).png' style='width:50rpx;margin-top:30rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>分享赚钱</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='list flex'  bindtap='my_is_business'>
+    <view class='list_left flex'>
+        <image src='../../img/yjjx-5-kb (2).png' style='width:50rpx;margin-top:25rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>我是商家</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+
+<view class='list flex' style='margin-top:20rpx;' bindtap='customer_phone'>
+    <view class='list_left flex'>
+        <image src='../../img/yjjx-5-kb (1).png' style='width:50rpx;margin-top:25rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>客服电话</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='list flex'  bindtap='feedback'>
+    <view class='list_left flex'>
+        <image src='../../img/yjjx-5-kb (4).png' style='width:50rpx;margin-top:25rpx;margin-left:20rpx;' mode='widthFix'/>
+        <view style='margin-left:20rpx;'>意见反馈</view>
+    </view>
+    <image src='../../img/tc-235.png' style='width:25rpx;margin-top:35rpx;margin-left:20rpx;' mode='widthFix'/>
+</view>
+<view class='back'></view>

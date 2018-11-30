@@ -1,0 +1,18 @@
+<!--pages/my_is_business/information/information.wxml-->
+<view class='div'>
+    <view class='name'>填写营业地址</view>
+    <view class='in flex'>
+        <image src='../../../img/ty-37-kb.png' style='width:30rpx;margin-left:25rpx;margin-top:20rpx;' mode='widthFix'/>
+        <input class='input' placeholder='请输入营业地址' placeholder-class='place'/>
+    </view>
+</view>
+
+<view class='div' style='margin-top:20rpx;'>
+    <view class='name'>填写联系电话</view>
+    <view class='in flex'>
+        <image src='../../../img/tc-234_38.png' style='width:30rpx;margin-left:25rpx;margin-top:20rpx;' mode='widthFix'/>
+        <input class='input' placeholder='请输入联系电话' placeholder-class='place'/>
+    </view>
+</view>
+
+<view class='sure'>确定</view>

@@ -1,0 +1,11 @@
+/* pages/my_is_business/commission_setting/commission_setting.wxss */
+page{background-color: #f1f1f1}
+.div{width: 92%;padding: 40rpx 4%;background-color: white;}
+.top{width: 100%;height: 100rpx;line-height: 80rpx;font-size: 30rpx;text-align: center;border-top: 1rpx solid #F6F6F6;border-bottom: 1rpx solid #F6F6F6;}
+.on{border-bottom: 4rpx solid #FF7133;}
+.top_{width: 50%}
+.sec{height: 80rpx;line-height: 80rpx;font-size: 32rpx;color: #555;margin-top: 20rpx;}
+.input{width: 97%;padding-left: 3%;height:80rpx;border: 1rpx solid #F2F2F2;border-radius: 5rpx;font-size: 30rpx;margin-top: 20rpx;}
+.place{font-size: 28rpx;color: #999}
+.text{flex-wrap: wrap;font-size: 26rpx;color: #444;margin-top: 20rpx;}
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:100rpx;font-size: 30rpx;}

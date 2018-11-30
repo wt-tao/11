@@ -1,0 +1,22 @@
+<!--pages/my_comment/my_comment.wxml-->
+<view class='top flex'>
+    <view class='top_lef'>评论（4）</view>
+    <view class='top_lef ex'>编辑</view>
+</view>
+
+<view class='div' wx:for='{{2}}'>
+    <view class='div_ flex'>
+        <view class='div_img'></view>
+        <view class='div_text'>
+          <view>按时大大阿福哥are噶非官方的个死发生过是梵蒂冈啊虽然分公司梵蒂冈摄入韩国人的施工方</view>
+          <view class='div_xx flex'>
+              <image src='../../img/pj_-xx_kb_3.png' style='width:25rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='div_xx flex'>
+              <image src='../../img/xz-1.png' style='width:25rpx;' mode='widthFix'/>
+              <view class='pj nowarp'>菜品不错，干净卫生</view>
+          </view>
+        </view>
+    </view>
+    <view class='div_ flex' style='font-size:22rpx;color:#999'>2018-11-13</view>
+</view>

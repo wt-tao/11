@@ -1,0 +1,12 @@
+/* pages/my_comment/my_comment.wxss */
+page{background-color: #f1f1f1;}
+.top{width: 96%;padding: 0 2%;height:100rpx;font-size: 30rpx;color: #676767;line-height: 100rpx;}
+.top_lef{width: 50%}
+.ex{text-align: right;}
+
+.div{width: 96%;padding: 30rpx 2%;background-color: white;border-bottom: 1rpx solid #F9F9F9}
+.div_{width: 100%}
+.div_img{width: 250rpx;height:200rpx;border: 1rpx solid black;}
+.div_text{width: 60%;margin-left: 20rpx;flex-wrap: wrap;font-size: 26rpx;color: #555;line-height: 50rpx;}
+.div_xx{margin-top: 20rpx;width: 100%;}
+.pj{font-size: 22rpx;color: #999;margin-left:20rpx;margin-top: -10rpx;}

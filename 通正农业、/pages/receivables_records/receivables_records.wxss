@@ -1,0 +1,12 @@
+/* pages/receivables_records/receivables_records.wxss */
+.top{width: 100%;background-color: #F1F1F1;height:100rpx;line-height: 100rpx;font-size: 28rpx;}
+.top_l{margin-left: 20rpx;width: 80%;}
+.picker{width: 150rpx;height: 100rpx;}
+
+.list{width: 96%;padding: 20rpx 2%;border-bottom: 1rpx solid #F9F9F9;}
+.list_tp{width: 100%;}
+.tp_name{width: 50%;font-size: 30rpx;color: #525252;}
+.tp_num{text-align: right;font-size: 40rpx;color: #FF6400;width: 50%;font-weight: bold}
+.list_b{font-size: 26rpx;color: #999;margin-top:10rpx;}
+.b_t{width: 50%}
+.ex{text-align: right}

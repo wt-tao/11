@@ -1,0 +1,38 @@
+<!--pages/income_detail/income_detail.wxml-->
+<view class='list'  >
+    <view class='list_tp flex'>
+        <view class='tp_name'>袍哥人家老火锅</view>
+        <view class='tp_num'>+5.00</view>
+    </view>
+    <view class='list_b flex'>
+        <view class='b_t'>消费：500.00 返利：1%</view>
+        <view class='b_t ex'>消费：500.00 返利：1%</view>
+    </view>
+</view>
+
+<view class='div'>
+    <view class='list_ flex'>
+        <view class='b_t'>消费返利</view>
+        <view class='b_t ex'>+￥25.00</view>
+    </view>
+    <view class='list_ flex'>
+        <view class='b_t'>佣金返利</view>
+        <view class='b_t ex'>+￥25.00</view>
+    </view>
+    <view class='list_ flex'>
+        <view class='b_t'>优惠支出</view>
+        <view class='b_t ex'>￥0.00</view>
+    </view>
+    <view class='list_ flex'>
+        <view class='b_t'>佣金支出</view>
+        <view class='b_t ex'>-￥5.00</view>
+    </view>
+    <view class='list_ flex'>
+        <view class='b_t'>服务费</view>
+        <view class='b_t ex'>-￥5.00</view>
+    </view>
+    <view class='list_ flex' style='font-size:34rpx;'>
+        <view class='b_t' >消费收益</view>
+        <view class='b_t ex' style='color:#FF6600'>+￥25.00</view>
+    </view>
+</view>

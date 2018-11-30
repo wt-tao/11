@@ -1,0 +1,20 @@
+/* pages/nearby/nearby.wxss */
+page{background-color: #F1F1F1}
+.search{width: 100%;height:100rpx;background-color: white;}
+.search_{width: 94%;margin-left: 20rpx;height: 60rpx;border-radius: 40rpx;border: 1rpx solid #F0F0F0}
+.input{height: 60rpx;font-size: 28rpx;width: 75%;padding-left: 20rpx;}
+.polac{font-size: 28rpx;color: #989898}
+
+.title{width: 100%;height:80rpx;background-color: white;margin-top: 20rpx;}
+.title_list{width: 16.5%;line-height: 80rpx;text-align: center;font-size: 28rpx;color: #555;}
+.on{border-bottom: 2rpx solid #FF7133;font-size: 30rpx}
+
+.list{width: 96%;background-color: white;margin-top: 10rpx;padding: 20rpx 2%;}
+.list_img{width: 280rpx;height:240rpx;border: 1rpx solid black}
+.list_info{width: 56%;margin-left:20rpx;}
+.info_name{width: 100%;flex-wrap: wrap;line-height: 50rpx;font-size: 30rpx;font-weight: bold;}
+.index-fl{width: 100%;height: 80rpx;line-height: 80rpx;color: #888888;font-size: 25rpx;}
+.infp_tex{width: 100rpx;line-height:30rpx;}
+.infp_texs{line-height:30rpx;text-align:right;width: 100rpx;}
+.fl_text{width: 50%;}
+.ts{text-align: right}

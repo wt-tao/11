@@ -1,0 +1,10 @@
+/* pages/fans/fans.wxss */
+page{background-color: #F1F1F1}
+.top{width:100%;height:180rpx;position: absolute;top: 0; }
+.top_text{margin-left:20rpx;line-height: 180rpx;font-size: 38rpx;color: white}
+
+.list{width: 96%;padding: 2% 20rpx;background-color: white;border-bottom: 1rpx solid #F8F8F8;}
+.list_img{width: 150rpx;height: 150rpx;border-radius: 50%;border: 1rpx solid black;}
+.list_r{width: 70%;margin-left:20rpx;}
+.r_name{color: #494949;font-size: 32rpx;margin-top:20rpx;}
+.r_time{font-size: 26rpx;color: #999;margin-top:20rpx;}

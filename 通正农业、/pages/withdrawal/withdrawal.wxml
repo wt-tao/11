@@ -1,0 +1,17 @@
+<!--pages/withdrawal/withdrawal.wxml-->
+<view class='div'>
+    <view class='div_'>
+        <view class='div_t flex'>
+            <view class='div_t_l'>您当前的收益：<text style='font-weight: bold;font-size:36rpx;color:#333'>￥518.00</text></view>
+            <view class='gz'>提现规则</view>
+        </view>
+        <view class='div_t flex'>
+            <view class='div_t_l'>可提现的额度：<text style='font-weight: bold;font-size:36rpx;color:#FF6528'>￥259.00</text></view>
+        </view>
+    </view>
+    <input class='input' placeholder='请输入您要提现的金额' placeholder-class='place'/>
+    <view class='ts'>提示：您的提现将转入您的微信账户中</view>
+</view>
+
+
+<view class='sure'>确定</view>

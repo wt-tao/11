@@ -1,0 +1,35 @@
+<!--pages/share/share.wxml-->
+<!-- <canvas canvas-id='myCanvas' class='canvas'></canvas> -->
+<view class='div'>
+      <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%'/>
+      <view class='divs' ></view>
+      <view class='div_'>
+          <!-- <view class='div_img'>
+              <image src='../../img/tc-212-kb-2 (1).png' style='width:100%;height:100%;position: relative;z-index:1003' mode='aspectFill'/>
+              <view class='fiv-xx flex'>
+                  <image src='../../img/pjxx_kb.png' style='width:30rpx;margin-top:25rpx;margin-left:5rpx;' wx:for='{{5}}' mode='widthFix'/>
+                  <view class='xx_text'>5.0分</view>
+              </view>
+          </view> -->
+          <!-- <view class='info'>
+              <view class='info_t flex'>
+                  <view class='info_img'></view>
+                  <view class='info_name'>这是昵称 想吃</view> 
+              </view>
+              <view class='info_count'>是大V是大V大师哥发的个阿道夫噶打女阿法狗</view>
+
+              <view class='butt flex'>
+                  <view class='img_rwm'></view>
+                  <view class='bu_r'>
+                      <view style='margin-top:30rpx;'>长按识别二维码</view>
+                      <view style='margin-top:10rpx;'>查看商家</view>
+                  </view>
+              </view>
+          </view> -->
+          <canvas canvas-id='canvas'  style="width:100%;height:100%;"></canvas>
+      </view>
+</view>
+
+<view class='fx'>分享上面的卡片</view>
+
+<view class='bc' bindtap='save'>保存卡片</view>

@@ -1,0 +1,13 @@
+/* pages/feedback/feedback.wxss */
+page{background-color: #f1f1f1}
+.div{width: 90%;padding: 50rpx 5%;background-color: white;}
+.place{font-size: 28rpx;color: #999}
+.textarea{width: 92%;padding: 30rpx 4%;font-size: 28rpx;height:300rpx;border: 1rpx solid #E7E7E7;border-radius: 5rpx;}
+
+.list{width: 650rpx;height: 80rpx;margin-top: 30rpx;}
+.buq{font-size: 26rpx;color: #168FD6;margin-left: 20rpx;line-height: 100rpx;}
+.qued{width: 95%;margin-left: 2.5%;margin-top: 130rpx;height: 80rpx; text-align: center;line-height: 80rpx; border-radius: 8rpx; color: white;font-size: 30rpx;}
+
+
+
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:100rpx;font-size: 30rpx;}

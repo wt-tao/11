@@ -1,0 +1,9 @@
+/* pages/my_is_business/business_hours/business_hours.wxss */
+page{background-color: #f1f1f1}
+.div{background-color: white;width: 94%;padding: 30rpx 3%;}
+.name{line-height: 80rpx;font-size: 30rpx;color: #666;}
+.in{width: 100%;border: 1rpx solid #E9E9E9;border-radius: 5rpx;height:80rpx;}
+.place{font-size: 28rpx;color: #999;}
+.input{width: 80%;margin-left:20rpx;height: 80rpx;font-size: 28rpx;}
+
+.sure{width: 90%;margin-left: 5%;text-align: center;line-height: 80rpx;border-radius: 5rpx;color: white;background-color: #FF8E29;margin-top:100rpx;font-size: 30rpx;}

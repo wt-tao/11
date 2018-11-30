@@ -1,0 +1,16 @@
+<!--pages/f_money/f_money.wxml-->
+<view class='div'>
+    <view class='top'>
+        <view class='top_img'></view>
+        <view class='top_text'>蜀宗袍哥人家老火锅（春熙路店）</view>
+    </view>
+    <view class='div_'>
+        <view class='title'>付款金额</view>
+        <view class='shur flex'>
+            <view class='icon'>￥</view>
+            <input class='input'/>
+        </view>
+
+        <view class='fq'>付款</view>
+    </view>
+</view>

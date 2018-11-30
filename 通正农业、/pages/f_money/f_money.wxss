@@ -1,0 +1,13 @@
+/* pages/f_money/f_money.wxss */
+page{background-color: #f1f1f1}
+.div{width: 94%;margin-left: 3%;margin-top: 20rpx;}
+.top{background-color: #F7F7F7;padding-top: 40rpx;height:300rpx;}
+.top_img{width: 25%;height:180rpx;border-radius: 50%;border: 1rpx solid black;margin-left: 37.5%}
+.top_text{width: 100%;text-align: center;font-size: 30rpx;font-weight: bold;margin-top: 20rpx;}
+
+.div_{background-color: white;height: 600rpx;}
+.title{margin-left: 20rpx;color: #707070;font-size: 30rpx;line-height: 100rpx;}
+.shur{width: 94%;margin-left: 3%;border-bottom: 1rpx solid #DDDDDD;margin-top: 40rpx;}
+.icon{font-size: 90rpx;color: #303030;}
+.input{height:100rpx;font-size: 70rpx;margin-left:20rpx;}
+.fq{width: 94%;margin-left: 3%; height: 80rpx;line-height: 80rpx;color: white;border-radius: 5rpx;margin-top: 150rpx;text-align: center;font-size: 30rpx;background-color: #1AAC19}

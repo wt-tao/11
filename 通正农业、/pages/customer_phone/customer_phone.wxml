@@ -1,0 +1,16 @@
+<!--pages/customer_phone/customer_phone.wxml-->
+<view class='div'>
+    <view class='kuang flex'>
+          <image src='../../img/tc-233.png' style='width:70rpx;margin-top:15rpx;margin-left:150rpx;' mode='widthFix'/>
+          <view style='margin-left:30rpx;'>400-588-999</view>
+    </view>
+    <view class='text'>7x24小时服务热线，欢迎您来电咨询</view>
+</view>
+
+<view class='div' style='margin-top:10rpx;'>
+    <view class='kuang flex' style='background-color:white'>
+          <image src='../../img/tc-295 (1).png' style='width:70rpx;margin-top:15rpx;margin-left:150rpx;' mode='widthFix'/>
+          <view style='margin-left:30rpx;' class='text1'>客服微信：<text style='color:#FF6F07'>11kfliwx</text></view>
+    </view>
+    <view class='text'>添加11客服微信，随时随地联系我们</view>
+</view>

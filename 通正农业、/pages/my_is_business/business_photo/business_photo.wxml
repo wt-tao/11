@@ -1,0 +1,25 @@
+<!--pages/my_is_business/business_photo/business_photo.wxml-->
+<view class='top flex'>
+    <view class='top_lef'>图片（4）</view>
+    <view class='top_lef ex'>编辑</view>
+</view>
+
+<view class='list_sp flex'>
+    <view class='list_sp_'>
+        <image src='../../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+    <view class='list_sp_'>
+        <image src='../../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+     <view class='list_sp_' style='background-color: #B6B6B6;' bindtap='add_photo'>
+          <image src='../../../img/jx-1-kb.png' style='width:40%;margin-left:30%;margin-top:50rpx' mode='widthFix'/>
+          <view class='text'>添加图片</view>
+    </view>
+</view>
+
+
+<view class='fb'>发布</view>

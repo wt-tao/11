@@ -1,0 +1,31 @@
+<!--pages/comment/comment.wxml-->
+<view class='list_t flex'>
+    <view class='list_c {{id==1?"on":""}}' id='1' bindtap='sec'>想吃</view>
+    <view class='list_c {{id==2?"on":""}}' id='2' bindtap='sec'>吃过</view>
+</view>
+
+<view class='tit'>点击星星评分</view>
+
+<view class='xingx flex' bindtap="myStarChoose1">
+    <block wx:for="{{starMap}}">
+              <image hidden="{{star1<index+1}}" style="padding-right: 10rpx;width:90rpx;margin-top:15rpx;margin-left:5rpx;"  data-star="{{index+1}}" src='../../img/pj_-xx_kb_3.png'  mode='widthFix'/>
+              <image hidden="{{star1>=index+1}}" style="padding-right: 10rpx;width:90rpx;margin-top:15rpx;margin-left:5rpx;"  data-star="{{index+1}}" src='../../img/pjxx-kb-4.png' mode='widthFix'/>
+      </block>
+</view>
+
+<view class='xuanz flex' bindtap='selectTap'>
+    <view class='xuanz_te'>选择标签</view>
+    <image src='../../img/xz-1-kb-2_52.png' mode='widthFix' class='imgs {{show&&"select_img_rotate"}}'/>
+</view>
+
+<view class='comment_list' hidden='{{!show}}' >
+    <view class='list_ {{item.checked?"ons":""}}' wx:for='{{list}}' bindtap='select_date' data-index='{{index}}' data-name='{{item.text}}'>{{item.text}}</view>
+</view>
+
+<textarea placeholder='说说你吃过的感受...' placeholder-class='place' class='textarea'></textarea>
+<view class='sure' bindtap='sure'>确定</view>
+
+<view class='bz flex'>
+    <image src='../../img/xz-2-kb-2_73.png' style='width:50rpx;margin-top:5rpx;' mode='widthFix'/>
+    <view style='margin-left:20rpx;'>发布后分享到朋友圈、微博</view>
+</view>

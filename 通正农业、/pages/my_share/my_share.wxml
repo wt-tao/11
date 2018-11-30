@@ -1,0 +1,20 @@
+<!--pages/my_share/my_share.wxml-->
+<view class='bgt' style='height:{{height}}'>
+  <view style='height:50rpx;'></view>
+   <view class='div'>
+      <view class='title'>分享11，即刻赚钱</view>
+      <view class='erwm_img'></view>
+      <view class='bz'>将该小程序分享给您的好友</view>
+      <view class='share_button flex'>
+          <view class='button_ flex'>
+              <image src='../../img/tc-295 (1).png' style='width:60rpx;margin-top:15rpx;margin-left:30rpx;' mode='widthFix'/>
+              <view class='share_text'>微信好友</view>
+          </view>
+          <view class='button_ flex'>
+              <image src='../../img/tc-295 (2).png' style='width:60rpx;margin-top:10rpx;margin-left:30rpx;' mode='widthFix'/>
+              <view class='share_text'>发朋友圈</view>
+          </view>
+      </view>
+   </view>
+</view>
+

@@ -1,0 +1,47 @@
+<!--pages/business_introduce/business_introduce.wxml-->
+<view class='top flex'>
+    <view class='top_list {{id==1?"on":""}}' id='1' bindtap='sec'>商家介绍</view>
+    <view class='top_list {{id==2?"on":""}}' id='2' bindtap='sec'>商家图片</view>
+</view>
+
+<view hidden='{{id!=1}}'>
+    <view class='bus_img'></view>
+    <view class='bus_name'>蜀宗袍哥人家老火锅（春熙路店）</view>
+    <view class='bus_name bus_text'>发的稿费发的给如果vs发按如果而非个封神榜二阿哥发鳌峰大V阿金坷垃决定功能卡拉让人过会儿个我的</view>
+    <view class='back'></view>
+    <view class='bus_list'>
+        <view class='bus-List_l'>联系电话：13231564135</view>
+        <view class='bus-List_ls flex'>
+            <view class='bus-List_ls_vc bus-List_l '>地址：锦江区东大街328号（东门大桥头2楼）</view>
+            <view class='bus-List_ls_vc_jl flex'>
+                <image src='../../img/ty-37-kb.png' style='width:30rpx;margin-top:10rpx;' mode='widthFix'/>
+                <view class='bus-List_ls_vc_jl_nu'>900米</view>
+            </view>
+        </view>
+    </view>
+    <view class='bus_list'>
+        <view class='bus-List_l'>营业时间：10：00~22：30</view>
+    </view>
+     <view class='back'></view>
+</view>
+
+
+<view hidden='{{id!=2}}'>
+<view class='list_sp flex'>
+    <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+    <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+     <view class='list_sp_'>
+        <image src='../../img/tc-212-kb-2 (5).png' style='width:100%;height:100%;position: relative;z-index:1001' mode='aspectFill'/>
+        <view class='list_sp_dibu'></view>
+        <view class='list_sp_text'>经典鸳鸯锅</view>
+    </view>
+</view>
+</view>
